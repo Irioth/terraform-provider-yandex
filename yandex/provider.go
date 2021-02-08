@@ -198,6 +198,7 @@ func provider(emptyFolder bool) terraform.ResourceProvider {
 			"yandex_mdb_postgresql_cluster":                resourceYandexMDBPostgreSQLCluster(),
 			"yandex_mdb_redis_cluster":                     resourceYandexMDBRedisCluster(),
 			"yandex_mdb_kafka_cluster":                     resourceYandexMDBKafkaCluster(),
+			"yandex_mdb_elasticsearch_cluster":             resourceYandexMDBElasticsearchCluster(),
 			"yandex_resourcemanager_cloud_iam_binding":     resourceYandexResourceManagerCloudIAMBinding(),
 			"yandex_resourcemanager_cloud_iam_member":      resourceYandexResourceManagerCloudIAMMember(),
 			"yandex_resourcemanager_folder_iam_binding":    resourceYandexResourceManagerFolderIAMBinding(),
